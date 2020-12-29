@@ -1,0 +1,40 @@
+@mixin hoverPattern($valueScale, $delay, $duration) {
+    cursor: pointer;
+    transform: scale($valueScale);
+    transition-delay: $delay;
+    transition-duration: $duration;
+}
+@mixin hoverPatternColor($valueScale, $delay, $duration, $color) {
+    cursor: pointer;
+    transform: scale($valueScale);
+    transition-delay: $delay;
+    transition-duration: $duration;
+    color: $color;
+}
+@mixin hoverPatternBackground($valueScale, $delay, $duration, $background) {
+    cursor: pointer;
+    transform: scale($valueScale);
+    transition-delay: $delay;
+    transition-duration: $duration;
+    background: $background;
+}
+@mixin hoverPatternLink($valueScale, $delay, $duration) {
+    cursor: pointer;
+    transform: scale($valueScale);
+    transition-delay: $delay;
+    transition-duration: $duration;
+    text-decoration: underline;
+}
+@mixin hoverPatternColorLink($valueScale, $delay, $duration, $color) {
+    cursor: pointer;
+    transform: scale($valueScale);
+    transition-delay: $delay;
+    transition-duration: $duration;
+    text-decoration: underline;
+    color: $color;
+}
+@mixin hoverPatternLinkCommon($color) {
+    cursor: pointer;
+    text-decoration: underline;
+    color: $color;
+}
