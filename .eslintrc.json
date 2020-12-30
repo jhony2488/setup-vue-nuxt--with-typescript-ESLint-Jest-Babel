@@ -8,18 +8,21 @@
     "jquery": true
   },
   "extends": [
+    "@nuxtjs/eslint-config-typescript",
     "airbnb-base",
     "plugin:vue/essential",
+    "plugin:vue/base",
+    "plugin:vue/recommended",
     "plugin:vue-a11y/base",
-    "@nuxtjs/eslint-config-typescript",
     "prettier",
     "prettier/vue",
     "plugin:prettier/recommended",
+    "plugin:@vue/essential",
     "plugin:nuxt/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
+  "parser": "vue-eslint-parser",
   "parserOptions": {
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
     "allowImportExportEverywhere": true,
     "sourceType": "module",
     "ecmaVersion": 11
@@ -33,6 +36,7 @@
   ],
   // add your custom rules here
   "rules": {
+    "@vue/comment-directive": 0,
     "vue-a11y/label-has-for": [
       2,
       {
