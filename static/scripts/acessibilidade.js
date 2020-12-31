@@ -1,1 +1,3 @@
-document.onkeydown=function(e){13===e.keyCode&&document.activeElement.click()};
+document.onkeydown = (e) => {
+  e.keyCode === 13 && document.activeElement.click()
+}
