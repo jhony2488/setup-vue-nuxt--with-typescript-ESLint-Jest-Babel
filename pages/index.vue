@@ -27,5 +27,7 @@
 <script lang="ts">
 import Vue from 'vue'
 
+const jhony: tipo = 'tipo1'
+console.log(jhony)
 export default Vue.extend({})
 </script>
