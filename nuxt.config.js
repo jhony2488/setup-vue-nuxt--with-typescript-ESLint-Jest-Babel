@@ -162,7 +162,7 @@ export default {
     fallback: true,
   },
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['./assets/@types/index.ts', '@/plugins/vue-compiler.ts'],
+  plugins: ['./assets/scripts/@types/index.ts', '@/plugins/vue-compiler.ts'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
