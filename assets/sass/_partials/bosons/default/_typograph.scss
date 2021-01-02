@@ -1,0 +1,29 @@
+// Mapa de font-sizes
+$font-sizes: (
+  xxxxxbig: 52px,
+  xxxxbig: 48px,
+  xxxbig: 42px,
+  xxbig: 36px,
+  xbig: 24px,
+  big: 18px,
+  medium: 16px,
+  small: 14px,
+  xsmall: 12px,
+) !default;
+// Função de leitura de mapa
+@function size($value, $rem: true) {
+  @if map-has-key($font-sizes, $value) {
+    @if $rem {
+      @return map-get($font-sizes, $value);
+    } @else {
+      @return map-get($font-sizes, $value);
+    }
+  }
+}
+// Estilizando um átomo
+%buton_config {
+  font-size: size(big);
+}
+button {
+  @extend %buton_config;
+}

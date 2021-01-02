@@ -1,11 +1,10 @@
-@import "./_partials/imports";
+@import "./_partials/bosons/index";
+@import "./_partials/quarks/index";
 
 @import "./_partials/reset";
 @import "./_partials/normalize";
 
-@import "./_partials/variables";
-@import "./_partials/mixins";
-
-@import "./_partials/acessibility";
-
-
+@import "./_partials/atoms/index";
+@import "./_partials//molecules/index";
+@import "./_partials/organisms/index";
+@import "./_partials/templates/index";

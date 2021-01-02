@@ -1,0 +1,46 @@
+// Mapa de cores com suas variáções fixas
+$colors: (
+  primary: #1eb7db,
+  secondary: #85c440,
+  danger: #f75757,
+  success: #a4cb1b,
+  warning: #febc11,
+  light: (
+    lightest: #ffffff,
+    light: #f9f9f9,
+    base: #eeebeb,
+    medium: #e0e0e0,
+  ),
+  dark: (
+    light: #c9c9c7,
+    base: #706f6f,
+    medium: #b1afaf,
+    darkest: #000000,
+  ),
+) !default;
+
+// Função de leitura de mapa
+@function color($color, $complementary: null) {
+  @if map-has-key($colors, $color) {
+    $type: map-get($colors, $color);
+    @if $complementary == null {
+      @if type-of($type) == map {
+        @return map-get(map-get($colors, $color), "base");
+      } @else {
+        @return map-get($colors, $color);
+      }
+    } @else {
+      @return map-get(map-get($colors, $color), $complementary);
+    }
+  }
+}
+
+// Estilizando um átomo
+%buton_config {
+  background-color: color(primary);
+  color: color(secundary);
+  border-color: color(secundary);
+}
+button {
+  @extend %buton_config;
+}
