@@ -38,25 +38,25 @@ export default {
     ],
     script: [
       {
-        src: './scripts/jquery.js',
+        src: './scripts/js/jquery.js',
       },
       {
-        src: '/scripts/compatibilyImages.js',
+        src: '/scripts/js/html5Shiv.js',
         async: true,
         defer: true,
       },
       {
-        src: '/scripts/html5Shiv.js',
+        src: '/scripts/js/respond.js',
         async: true,
         defer: true,
       },
       {
-        src: '/scripts/respond.js',
+        src: '/scripts/js/selectivizr.js',
         async: true,
         defer: true,
       },
       {
-        src: '/scripts/acessibilidade.js',
+        src: '/scripts/js/acessibilidade.js',
         async: true,
         defer: true,
       },
