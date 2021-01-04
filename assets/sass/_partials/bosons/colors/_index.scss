@@ -33,6 +33,7 @@ $colors: (
       @return map-get(map-get($colors, $color), $complementary);
     }
   }
+  @return #0000;
 }
 
 // Estilizando um átomo
