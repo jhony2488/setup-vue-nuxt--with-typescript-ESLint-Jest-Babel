@@ -23,12 +23,13 @@ gulp.task('js', () => {
     'static/scripts/js/html5Shiv.js',
     'static/scripts/js/respond.js',
     'static/scripts/js/selectivizr.js',
+    'static/scripts/js/respimage.js',
     'static/scripts/js/acessibilidade.js',
     'static/scripts/js/jquery.js',
   ]
   const distJs = ['static/scripts/js/']
   gulp
-    .src([srcJs[0], srcJs[1], srcJs[2]])
+    .src([srcJs[0], srcJs[1], srcJs[2], srcJs[3]])
     .pipe(concat('allPolify.js'))
     .pipe(gulp.dest(distJs))
   gulp.src(srcJs[0]).pipe(uglifyJs()).pipe(gulp.dest(distJs))
