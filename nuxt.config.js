@@ -43,7 +43,6 @@ export default {
       {
         src: '/scripts/js/allPolify.js',
         async: true,
-        defer: true,
       },
       {
         src: '/scripts/js/acessibilidade.js',
