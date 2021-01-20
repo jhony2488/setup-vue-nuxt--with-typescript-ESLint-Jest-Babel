@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@mixin generate-role-content($role, $prefix, $suffix) {
+    content: "${prefix}${role}${suffix}";
+}
+
+
+@mixin generate-language-content($language, $prefix, $suffix) {
+    content: "${prefix}${language}${suffix}";
+}
+
+@mixin generate-language($language) {
+    $var: "language-${language}";
+    [lang="${language}"]:before,
+    [xml\:lang="${language}"]:before {
+        @include generate-language-content($var, $attribute-language-prefix-begin, $attribute-language-suffix-begin);
+    }
+
+    [lang="${language}"]:after,
+    [xml\:lang="${language}"]:after {
+        @include generate-language-content($var, $attribute-language-prefix-end, $attribute-language-suffix-end);
+    }
+}

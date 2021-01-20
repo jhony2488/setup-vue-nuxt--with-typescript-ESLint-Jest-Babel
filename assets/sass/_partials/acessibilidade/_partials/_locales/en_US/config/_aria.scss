@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+$aria-busy-true-begin: "(Updating) ";
+$aria-busy-true-end: #{""};
+
+$aria-checked-true-begin: #{""};
+$aria-checked-true-end: " (Checked)";
+
+$aria-checked-false-begin: #{""};
+$aria-checked-false-end: " (Not checked)";
+
+$aria-checked-mixed-begin: #{""};
+$aria-checked-mixed-end: " (Half checked)";
+
+$aria-dropeffect-copy-begin: #{""};
+$aria-dropeffect-copy-end: " (Drop copy in target)";
+
+$aria-dropeffect-move-begin: #{""};
+$aria-dropeffect-move-end: " (Drop move in target)";
+
+$aria-dropeffect-link-begin: #{""};
+$aria-dropeffect-link-end: " (Drop link in target)";
+
+$aria-dropeffect-execute-begin: #{""};
+$aria-dropeffect-execute-end: " (Drop execute in target)";
+
+$aria-dropeffect-popup-begin: #{""};
+$aria-dropeffect-popup-end: " (Drop popup in target)";
+
+$aria-expanded-true-begin: #{""};
+$aria-expanded-true-end: " (Expanded)";
+
+$aria-expanded-false-begin: #{""};
+$aria-expanded-false-end: " (Collapsed)";
+
+$aria-grabbed-true-begin: #{""};
+$aria-grabbed-true-end: " (Dragging)";
+
+$aria-grabbed-false-begin: #{""};
+$aria-grabbed-false-end: " (Draggable)";
+
+$aria-haspopup-true-begin: #{""};
+$aria-haspopup-true-end: " (Has popup)";
+
+$aria-label-prefix-begin: "(Label: ";
+$aria-label-suffix-begin: ") ";
+$aria-label-prefix-end: #{""};
+$aria-label-suffix-end: #{""};
+
+$aria-level-prefix-begin: "(Level: ";
+$aria-level-suffix-begin: ") ";
+$aria-level-prefix-end: #{""};
+$aria-level-suffix-end: #{""};
+
+$aria-orientation-vertical-begin: #{""};
+$aria-orientation-vertical-end: " (Vertical orientation)";
+
+$aria-orientation-horizontal-begin: #{""};
+$aria-orientation-horizontal-end: " (Horizontal orientation)";
+
+$aria-pressed-true-begin: #{""};
+$aria-pressed-true-end: " (Pressed)";
+
+$aria-pressed-false-begin: #{""};
+$aria-pressed-false-end: " (Not pressed)";
+
+$aria-pressed-mixed-begin: #{""};
+$aria-pressed-mixed-end: " (Half pressed)";
+
+$aria-selected-true-begin: #{""};
+$aria-selected-true-end: " (Selected)";
+
+$aria-selected-false-begin: #{""};
+$aria-selected-false-end: " (Not selected)";
+
+$aria-sort-ascending-begin: "(Sorted ascending) ";
+$aria-sort-ascending-end: #{""};
+
+$aria-sort-descending-begin: "(Sorted descending) ";
+$aria-sort-descending-end: #{""};
+
+$aria-sort-other-begin: "(Sorted) ";
+$aria-sort-other-end: "";

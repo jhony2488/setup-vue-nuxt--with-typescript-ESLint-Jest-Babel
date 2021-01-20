@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+[download]:focus:before
+, [download]:focus:after
+, [target="_blank"]:focus:before
+, [target="_blank"]:focus:after
+, [href]:focus:before
+, [href]:focus:after
+, [draggable="true"]:focus:before
+, [draggable="true"]:focus:after
+, [dropzone]:focus:before
+, [dropzone]:focus:after
+, [aria-checked]:focus:before
+, [aria-checked]:focus:after
+, [aria-dropeffect]:focus:before
+, [aria-dropeffect]:focus:after
+, [aria-expanded]:focus:before
+, [aria-expanded]:focus:after
+, [aria-grabbed]:focus:before
+, [aria-grabbed]:focus:after
+, [aria-haspopup="true"]:focus:before
+, [aria-haspopup="true"]:focus:after
+, [aria-orientation]:focus:before
+, [aria-orientation]:focus:after
+, [aria-pressed]:focus:before
+, [aria-pressed]:focus:after
+, [aria-selected]:focus:before
+, [aria-selected]:focus:after
+, [title]:before
+, [title]:after
+, [accesskey]:before
+, [accesskey]:after
+, [draggable="true"]:before
+, [draggable="true"]:after
+, [aria-busy="true"]:before
+, [aria-busy="true"]:after
+, [aria-checked]:before
+, [aria-checked]:after
+, [aria-expanded]:before
+, [aria-expanded]:after
+, [aria-grabbed]:before
+, [aria-grabbed]:after
+, [aria-haspopup="true"]:before
+, [aria-haspopup="true"]:after
+, [aria-label]:before
+, [aria-label]:after
+, [aria-level]:before
+, [aria-level]:after
+, [aria-pressed]:before
+, [aria-pressed]:after
+, [aria-selected]:before
+, [aria-selected]:after
+, [aria-sort]:before
+, [aria-sort]:after
+, [role]:before
+, [role]:after
+, [lang]:before
+, [lang]:after
+, [xml\:lang]:before
+, [xml\:lang]:after {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: none;
+	text-indent: -9999px;
+}

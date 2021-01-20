@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+$attribute-title-prefix-begin: "(Title: ";
+$attribute-title-suffix-begin: ") ";
+$attribute-title-prefix-end: #{""};
+$attribute-title-suffix-end: #{""};
+
+$attribute-href-prefix-begin: #{""};
+$attribute-href-suffix-begin: #{""};
+$attribute-href-prefix-end: " (Location: ";
+$attribute-href-suffix-end: ")";
+
+$attribute-accesskey-prefix-begin: #{""};
+$attribute-accesskey-suffix-begin: #{""};
+$attribute-accesskey-prefix-end: " (Keyboard shortcut: ";
+$attribute-accesskey-suffix-end: ")";
+
+$attribute-target-blank-begin: "(Open new tab) ";
+$attribute-target-blank-end: #{""};
+
+$attribute-download-begin: "(Download) ";
+$attribute-download-end: #{""};
+
+$attribute-draggable-begin: #{""};
+$attribute-draggable-end: " (Draggable)";
+
+$attribute-dropzone-copy-begin: #{""};
+$attribute-dropzone-copy-end: " (Drop copy in target)";
+
+$attribute-dropzone-move-begin: #{""};
+$attribute-dropzone-move-end: " (Drop move in target)";
+
+$attribute-dropzone-link-begin: #{""};
+$attribute-dropzone-link-end: " (Drop link in target)";
+
+$attribute-language-prefix-begin: "(Begin of language: ";
+$attribute-language-suffix-begin: ") ";
+$attribute-language-prefix-end: " (End of language: ";
+$attribute-language-suffix-end: ")";
+
+$attribute-role-prefix-begin: "(Begin of ";
+$attribute-role-suffix-begin: ") ";
+$attribute-role-prefix-end: " (End of ";
+$attribute-role-suffix-end: ")";

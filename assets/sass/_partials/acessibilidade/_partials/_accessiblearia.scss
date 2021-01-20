@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+[aria-dropeffect="copy"]:hover {
+	cursor: copy;
+}
+[aria-dropeffect="move"]:hover {
+	cursor: move;
+}
+[aria-dropeffect="link"]:hover {
+	cursor: alias;
+}
+[aria-dropeffect="execute"]:hover {
+	cursor: pointer;
+}
+[aria-dropeffect="popup"]:hover {
+	cursor: context-menu;
+}
+[aria-busy="true"]:hover {
+	cursor: wait;
+}
+[aria-haspopup="true"]:hover {
+	cursor: context-menu;
+}
+[aria-hidden="true"] {
+	visibility: hidden;
+}

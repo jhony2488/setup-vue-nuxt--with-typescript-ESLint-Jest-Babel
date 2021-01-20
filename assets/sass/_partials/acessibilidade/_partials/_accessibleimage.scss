@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+img[alt][longdesc] {
+	mask-repeat: no-repeat;
+	mask-size: cover;
+	mask-repeat: no-repeat;
+	mask-size: cover;
+}
+
+img[alt][longdesc]:hover {
+	mask: none;
+	mask-image: none;
+}
