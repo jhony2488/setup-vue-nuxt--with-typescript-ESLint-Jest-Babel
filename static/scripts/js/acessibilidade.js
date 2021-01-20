@@ -1,4 +1,1 @@
-/* eslint-disable no-unused-expressions */
-document.onkeydown = (e) => {
-  e.keyCode === 13 && document.activeElement.click()
-}
+document.onkeydown=e=>{13===e.keyCode&&document.activeElement.click()};

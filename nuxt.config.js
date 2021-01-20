@@ -41,17 +41,7 @@ export default {
         src: './scripts/js/jquery.js',
       },
       {
-        src: '/scripts/js/html5Shiv.js',
-        async: true,
-        defer: true,
-      },
-      {
-        src: '/scripts/js/respond.js',
-        async: true,
-        defer: true,
-      },
-      {
-        src: '/scripts/js/selectivizr.js',
+        src: '/scripts/js/allPolify.js',
         async: true,
         defer: true,
       },
